@@ -1,0 +1,13 @@
+---
+applications:
+  .:
+    name: howlonguntilthenextbus
+    framework:
+      name: sinatra
+      info:
+        mem: 128M
+        description: Sinatra Application
+        exec: ruby bus.rb
+    url: howlonguntilthenextbus.cloudfoundry.com
+    mem: '128'
+    instances: 1
